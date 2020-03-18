@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KhoiHuynh/KhoiFishBot/issues"
   },
-  "homepage": "https://github.com/KhoiHuynh/KhoiFishBot#readme"
+  "homepage": "https://github.com/KhoiHuynh/KhoiFishBot#readme",
+  "dependencies": {
+    "discord.js": "^12.0.2"
+  }
 }
