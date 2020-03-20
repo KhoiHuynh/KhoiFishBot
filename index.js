@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const token = "Njg5NDg5MzE4NDYwNjUzNzI3.XnDwZQ.ikKM8lernL7CkfzFCQ8JLmvLT9Q"
+const token = "Njg5NDg5MzE4NDYwNjUzNzI3.XnRMqA.Uc84fKHkcjwSqblgoong3_PGxeg"
 
 bot.login(token)
 bot.on('ready', () =>{
@@ -9,7 +9,7 @@ bot.on('ready', () =>{
 })
 
 bot.on('message', msg=>{
-    if(msg.content === "hello"){
-        msg.reply('Shut the fuck up bitch');
+    if(msg.content === "hello bot"){
+        msg.reply('Shut up, and do your work');
     }
 })
